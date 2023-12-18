@@ -144,4 +144,18 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>elasticsearch-dynamic-synonym</id>
+            <name>elasticsearch-dynamic-synonym</name>
+            <url>https://github.com/kevinlooz/elasticsearch-analysis-dynamic-synonym/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>elasticsearch-dynamic-synonym-snapshot</id>
+            <name>elasticsearch-dynamic-synonym-snapshot</name>
+            <url>https://github.com/kevinlooz/elasticsearch-analysis-dynamic-synonym/snapshot/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 </project>
